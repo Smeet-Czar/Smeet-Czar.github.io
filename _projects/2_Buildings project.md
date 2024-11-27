@@ -58,7 +58,7 @@ This bar chart dynamically displays the top 30 cities with the highest number of
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/Smeet-Czar/Smeet-Czar.github.io/blob/71c6bd47288b31e25756dd30317ee43e361a653e/python_notebooks/Visualization.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/Smeet-Czar/Smeet-Czar.github.io/blob/71c6bd47288b31e25756dd30317ee43e361a653e/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
 ```
 
@@ -69,6 +69,6 @@ This bar chart dynamically displays the top 30 cities with the highest number of
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/Smeet-Czar/Smeet-Czar.github.io/blob/71c6bd47288b31e25756dd30317ee43e361a653e/python_notebooks/Visualization.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/Smeet-Czar/Smeet-Czar.github.io/blob/71c6bd47288b31e25756dd30317ee43e361a653e/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
 
