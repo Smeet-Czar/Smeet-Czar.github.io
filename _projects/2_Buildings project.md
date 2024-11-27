@@ -24,6 +24,14 @@ We can use a vegachart HTML tag like so:
 <vegachart schema-url="{{ site.baseurl }}/assets/json/1_usage_chart.json" style="width: 100%"></vegachart>
 
 This bar chart shows the distribution of building usage categories (Usage Description) in a selected city. Users can select a city from a dropdown menu, and the chart dynamically updates to display the count of buildings in each category for the selected city.
+Encoding Types:
+* X-axis: Encodes the Usage Description as a nominal variable. Categories are sorted in descending order of count.
+* Y-axis: Encodes the count of buildings (count()) as a quantitative variable to show the number of buildings in each category.
+* Color Scheme: Encodes each Usage Description with a unique color. This choice highlights differences between usage categories and makes the chart more visually appealing.
+
+## Interactivity:
+* The dropdown menu provides city-level filtering. Users can explore the distribution of building usage categories specific to their selected city, making the visualization tailored and insightful. This interactivity simplifies the analysis of city-specific data and makes the chart more engaging.
+
 
 ```
 <vegachart schema-url="{{ site.baseurl }}/assets/json/2_interactive_chart.json" style="width: 100%"></vegachart>
@@ -31,12 +39,17 @@ This bar chart shows the distribution of building usage categories (Usage Descri
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/2_interactive_chart.json" style="width: 100%"></vegachart>
 
-In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
+## This bar chart dynamically displays the top 30 cities with the highest number of buildings. The chart updates based on the year selected using a slider, allowing users to explore trends in building counts for different time periods.
 
+Encoding Types:
+* X-axis: Encodes City as a nominal variable, sorted by descending building counts.
+* Y-axis: Encodes the count of buildings (BuildingCount) as a quantitative variable, showing the number of buildings in each city.
+* Color Scheme: Encodes City with a unique color, ensuring clear differentiation between cities.
+
+## Interactivity
+* The slider allows users to select a year, dynamically updating the chart to show the top 30 cities with the most buildings constructed up to that year. This interactivity enhances user exploration and enables trend analysis over time, offering a more focused and dynamic view of the data.
 
 ## Search The Data & Methods
-
-Below is where we can put some links to both the data and the analysis code as buttons:
 
 ```
 <div class="left">
