@@ -1,7 +1,7 @@
 ---
-name: Vega Lite Example Project
-tools: [Python, HTML, vega-lite]
-image: assets/pngs/cars.png
+name: Buliding usage analysis
+tools: [Python, HTML, vega-lite, Altair]
+image: assets/pngs/Buildings.png
 description: This is a "showcase" project that uses vega-lite for interactive viz!
 custom_js:
   - vega.min
@@ -32,7 +32,7 @@ Below is where we can put some links to both the data and the analysis code as b
 
 ```
 <div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv" text="The Data" %}
 </div>
 
 <div class="right">
