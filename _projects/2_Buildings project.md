@@ -23,6 +23,7 @@ We can use a vegachart HTML tag like so:
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/1_usage_chart.json" style="width: 100%"></vegachart>
 
+This bar chart shows the distribution of building usage categories (Usage Description) in a selected city. Users can select a city from a dropdown menu, and the chart dynamically updates to display the count of buildings in each category for the selected city.
 
 ```
 <vegachart schema-url="{{ site.baseurl }}/assets/json/2_interactive_chart.json" style="width: 100%"></vegachart>
