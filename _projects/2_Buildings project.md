@@ -23,8 +23,9 @@ We can use a vegachart HTML tag like so:
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/1_usage_chart.json" style="width: 100%"></vegachart>
 
-This bar chart shows the distribution of building usage categories (Usage Description) in a selected city. Users can select a city from a dropdown menu, and the chart dynamically updates to display the count of buildings in each category for the selected city.
-Encoding Types:
+## This bar chart shows the distribution of building usage categories (Usage Description) in a selected city. Users can select a city from a dropdown menu, and the chart dynamically updates to display the count of buildings in each category for the selected city.
+
+## Encoding Types:
 * X-axis: Encodes the Usage Description as a nominal variable. Categories are sorted in descending order of count.
 * Y-axis: Encodes the count of buildings (count()) as a quantitative variable to show the number of buildings in each category.
 * Color Scheme: Encodes each Usage Description with a unique color. This choice highlights differences between usage categories and makes the chart more visually appealing.
@@ -41,7 +42,7 @@ Encoding Types:
 
 ## This bar chart dynamically displays the top 30 cities with the highest number of buildings. The chart updates based on the year selected using a slider, allowing users to explore trends in building counts for different time periods.
 
-Encoding Types:
+## Encoding Types:
 * X-axis: Encodes City as a nominal variable, sorted by descending building counts.
 * Y-axis: Encodes the count of buildings (BuildingCount) as a quantitative variable, showing the number of buildings in each city.
 * Color Scheme: Encodes City with a unique color, ensuring clear differentiation between cities.
